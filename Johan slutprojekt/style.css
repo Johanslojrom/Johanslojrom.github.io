@@ -1,0 +1,82 @@
+
+body{ 
+       
+    font-family: 'Times New Roman', Times, serif;
+    
+
+
+}
+header {
+            background-color: #007acc;
+            padding: 30px 0;
+            text-align: center;
+        }    
+
+
+
+       header h1 {
+            color: whitesmoke;
+            font-size: 30px;;
+            margin: 0;
+        }
+
+        nav a {
+    color: #005b99; 
+    text-decoration: antiquewhite; 
+    font-size: 1.2em;
+    margin: 0 20px;
+
+}
+
+
+main h2 {
+    color: #007BFF;  
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;  
+}
+
+main p {
+    font-family: 'Arial', sans-serif;  
+    color:#333;  
+}    
+
+
+
+för att få länken lysandes
+
+nav a {
+    color: #005b99;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6347;
+    transform: scale(1.9); 
+}
+
+.main-image {
+    width: 50%; 
+    height: auto; 
+}   
+
+
+
+
+
+.spridare-bild {
+    width: 600px;
+    height: auto;
+}   
+
+
+
+
+img {
+    width: 900px;
+    max-width: 1000px; 
+  
+  }
+  
